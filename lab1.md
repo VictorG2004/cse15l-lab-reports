@@ -14,4 +14,12 @@
 * You will probably be asked: Are you sure you want to continue connecting (yes/no/[fingerprint])? Type yes
 * The terminal will now ask you for your password which is the ucsd password you are currently using or can be changed by visiting following website [Link] (https://sdacs.ucsd.edu/~icc/index.php).
 * You have now logged in and connected to a computer in the CSE basement!
-**We can now type in commands and 
+**We can now type in commands
+* Try using command pwd. What happens? This is going to show you where you are in the directory.
+* Now try using the following commands:\
+* cd ~
+* cd
+* ls -lat
+* ls -a
+* You can try these commands in any order and you should get a response
+![Image](
