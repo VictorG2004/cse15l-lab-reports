@@ -6,7 +6,7 @@
 ![Image](website.png)
 * You shouldn't need to change anything while setting up VS Code.
 
-**We will now atually remotely connect using the terminal**
+**We will now remotely connect using the terminal**
 * Once you are done setting up, open up VS Code. It should look like the following:
 ![Image](VSCodeOpen.png)
 * If you do not see the terminal, you can click the terminal button wich can be found at the top of the page in the middle of run and help. Choose New Terminal.
