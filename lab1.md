@@ -17,7 +17,7 @@
 * You have now logged in and connected to a computer in the CSE basement!
 
 **We can now type in commands**
-* Try using command pwd. What happens? This is going to show you where you are in the directory.
+* Try using command pwd. What happens? This is your current directory.
 * Now try using the following commands:
 * cd ~
 * cd
