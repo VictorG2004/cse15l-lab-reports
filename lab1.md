@@ -6,7 +6,7 @@
 ![Image](website.png)
 * You should be able to not need to change anything while setting up VS Code.
 
-**We will now atually remotely connect using the terminal
+**We will now atually remotely connect using the terminal**
 * Once you are done setting up open up VS Code. It should look like the following:
 ![Image](VSCodeOpen.png)
 * If you do not see the terminal, you can click the terminal button wich can be found at the top of the page in the middle of run and help. Choose New Terminal.
@@ -16,7 +16,7 @@
 * The terminal will now ask you for your password which is the ucsd password you are currently using or can be changed by visiting following website [Link] (https://sdacs.ucsd.edu/~icc/index.php).
 * You have now logged in and connected to a computer in the CSE basement!
 
-**We can now type in commands
+**We can now type in commands**
 * Try using command pwd. What happens? This is going to show you where you are in the directory.
 * Now try using the following commands:\
 * cd ~
