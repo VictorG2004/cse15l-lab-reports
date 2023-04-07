@@ -22,4 +22,4 @@
 * ls -lat
 * ls -a
 * You can try these commands in any order and you should get a response
-![Image](
+![Image](Commands.png)
