@@ -18,7 +18,7 @@
 
 **We can now type in commands**
 * Try using command pwd. What happens? This is going to show you where you are in the directory.
-* Now try using the following commands:\
+* Now try using the following commands:
 * cd ~
 * cd
 * ls -lat
