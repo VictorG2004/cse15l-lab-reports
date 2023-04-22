@@ -14,7 +14,7 @@
 * Your account name should be the account username for for your cse 15 class.
 * You should be able to find your username using this [Link](https://sdacs.ucsd.edu/~icc/index.php). Sign into the Account Lookup and your username is the one that starts with cs15lsp.
 * You will probably be asked: Are you sure you want to continue connecting (yes/no/[fingerprint])? Type yes
-* The terminal will now ask you for your password which is the ucsd password you are currently using or can be changed by visiting following website [Link] (https://sdacs.ucsd.edu/~icc/index.php).
+* The terminal will now ask you for your password which is the ucsd password you are currently using or can be changed by visiting following website [Link](https://sdacs.ucsd.edu/~icc/index.php).
 * You have now logged in and connected to a computer in the CSE basement!
 
 **We can now type in commands**
