@@ -24,6 +24,8 @@
 * cd ~
 * cd
 * ls -lat
+![Image](commandprompt1.png)
 * ls -a
+![Image](commandprompt2.png]
 * You can try these commands in any order and you should get a response
 ![Image](Commands.png)
