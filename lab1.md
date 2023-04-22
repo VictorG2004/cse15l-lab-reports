@@ -21,9 +21,8 @@
 **We can now type in commands**
 * Try using command pwd. What happens? This is your current directory.
 * Now try using the following commands:
-* cd ~
-* cd
 * ls -lat
+
 ![Image](commandpromt1.png)
 * ls -a
 ![Image](commandprompt2.png)
