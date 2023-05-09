@@ -5,6 +5,7 @@ I will be researching grep and looking for alternate ways I can use this command
 grep -r allows users to find a specific string in a directory and in other subdirectories.
 * I used grep -r to find a broad word and see if that would work or break my computer this was the result when i used command
 grep -r "and":
+
 // The output was too large so I was only able to provide an image
 ![Image](andexample.png)
 Here we see that it is going through all the files in the technical/ directory. It is not clear through picture but it has files from the biomed, plos, 911report and government directories.
