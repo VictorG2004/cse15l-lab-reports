@@ -29,6 +29,7 @@ biomed/1471-2091-3-8.txt:        uptake of thiamine and especially ThDP by mitoc
 // I have provided this image to show that command searches multiple files.
 ![Image](mitochondriaexample.png)
 Here we can see more clearly that this function searches through both biomed and plos files. 
+
 I used the following website to get information on the command: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
 
 ---
@@ -46,6 +47,7 @@ With this command I was able to see that the string "and" is found on 13 lines i
 0
 ```
 We can see here that if a word does not exist in a file the command grep -c will still work and return 0.
+
 I used the following website to get information on the command: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
 
 ---
@@ -125,6 +127,7 @@ Here we can see that the file that originally had 13 lines with the string "and"
 
 ```
 In this code we see that the string "and" can now be seen in the output but the line containing " and the" is now gone.
+
 I used the following website to get information on the command: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
 
 --- 
@@ -620,4 +623,5 @@ In this code we can see that only the string "mitochondria" is found in the outp
 
 ```
 This command shows all the lines in the file, so from this we can see that using this command with an empty line will return all lines.
+
 I used the following website to get information on the command: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
