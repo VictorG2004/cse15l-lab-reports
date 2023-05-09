@@ -4,28 +4,37 @@
 
 ![Image](part1-pic1.png)
 
+**EXAMPLE 1:**
+
 ![Image](part1-pic2.png)
 
-Method called: public String handleRequest(URI url)
-Relevant arguments in method: The argument 
+Methods called: public String handleRequest(URI url), public static void main(String[] args) throws IOException, public void handle(final HttpExchange exchange) throws IOException, public static void start(int port, URLHandler handler) throws IOException
+
+Relevant arguments in method: This if statement is important since it is staing that if the url has the string "/add-message" it will then also search for the string "s" and add any string after "s="
 ```
 if(url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
+                    str += parameters[1];
+                    str +="\n";
+                    return str;
 ```
 These are important to the code because it checks if a new message is being added if not then nothing will be presented in site.
 How the values change: I have a string value named str which at first is blank but then changes and adds the string that is inputted in search bar.
 
+**EXAMPLE 2:**
+
 ![Image](part1-pic3.png)
 
 Method called: public String handleRequest(URI url)
-Relevant arguments in method: The same if statement is important in this case:
+Relevant arguments in method: The same if statement is important in this case but more importantly the "str+=" is importnat because it allows us to add new strings without having to worry about the previous string not showing up:
 ```
- else {
-            System.out.println("Path: " + url.getPath());
-            if (url.getPath().contains("/add-message")) {
+if(url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
+                    str += parameters[1];
+                    str +="\n";
+                    return str;
 
 ```
 How the values change: the str now adds the new string that is inputted and in the if statement I have “\n” be added right after so that the new string can be seen in another line.
@@ -62,6 +71,8 @@ Symptom 1st input:
 
 Symptom 2nd Input:
 The 2nd input worked so did not have any noticeable failures.
+
+![Image](part2-pic2.png)
 
 The bug(Before):
 ```
