@@ -5,6 +5,7 @@
 ![Image](part1-pic1.png)
 
 ![Image](part1-pic2.png)
+
 Method called: public String handleRequest(URI url)
 Relevant arguments in method: The argument 
 ```
@@ -56,7 +57,9 @@ Input doesn’t include failure:
   }
 ```
 Symptom 1st input:
+
 ![Image](part2-pic1.png)
+
 Symptom 2nd Input:
 The 2nd input worked so did not have any noticeable failures.
 
