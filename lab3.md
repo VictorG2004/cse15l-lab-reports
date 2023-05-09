@@ -29,6 +29,7 @@ biomed/1471-2091-3-8.txt:        uptake of thiamine and especially ThDP by mitoc
 ![Image](mitochondriaexample.png)
 Here we can see more clearly that this function searches through both biomed and plos files. 
 I used the following website to get information on the command: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+
 ---
 ## **grep -c**
 What if I wanted to see how many times the word "and" is used in a specific file, the command grep -c counts how many lines contain the word "and"
@@ -123,6 +124,7 @@ Here we can see that the file that originally had 13 lines with the string "and"
 ```
 In this code we see that the string "and" can now be seen in the output but the line containing " and the" is now gone.
 I used the following website to get information on the command: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+
 --- 
 ## **grep -w**
 In the second example for the command grep -r we can see that all the lines that had the string "mitochondria" are displayed including the string "mitochondrial". How do we stop this from happening? This is where grep -w comes in handy. grep -w looks for only the specific string that we have inputed.
