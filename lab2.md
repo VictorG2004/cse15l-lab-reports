@@ -2,9 +2,9 @@
 ---
 ## **Part 1**
 
-[Image](http://url/a.png)
+[Image](part1-pic1.png)
 
-[Image](http://url/a.png)
+[Image](part1-pic2.png)
 Method called: public String handleRequest(URI url)
 Relevant arguments in method: The argument 
 ```
@@ -15,7 +15,7 @@ if(url.getPath().contains("/add-message")) {
 These are important to the code because it checks if a new message is being added if not then nothing will be presented in site.
 How the values change: I have a string value named str which at first is blank but then changes and adds the string that is inputted in search bar.
 
-[Image](http://url/a.png)
+[Image](part1-pic3.png)
 
 Method called: public String handleRequest(URI url)
 Relevant arguments in method: The same if statement is important in this case:
@@ -57,7 +57,7 @@ Input doesn’t include failure:
 ```
 Symptom 1st input:
 
-[Image](http://url/a.png)
+[Image](part2-pic1.png)
 Symptom 2nd Input:
 The 2nd input worked so did not have any noticeable failures.
 
