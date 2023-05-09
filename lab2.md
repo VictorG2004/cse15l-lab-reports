@@ -1,6 +1,7 @@
 # Lab Report 3
 ---
-**Part 1**
+##**Part 1**
+
 [Image](http://url/a.png)
 [Image](http://url/a.png)
 Method called: public String handleRequest(URI url)
@@ -31,7 +32,8 @@ How the values change: the str now adds the new string that is inputted and in t
 ```
 
 
-**Part 2:**
+##**Part 2:**
+
 Failure inducing input:
  ```
  @Test
