@@ -46,6 +46,7 @@ With this command I was able to see that the string "and" is found on 13 lines i
 ```
 We can see here that if a word does not exist in a file the command grep -c will still work and return 0.
 I used the following website to get information on the command: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+
 ---
 ## **grep -v**
 Lets say we wanted the file to show all the lines without a specific string, we can do this with the grep -v command.
