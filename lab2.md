@@ -26,7 +26,7 @@ How the values change: I have a string value named str which at first is blank b
 
 ![Image](part1-pic3.png)
 
-Method called: public String handleRequest(URI url)
+Method called:  public String handleRequest(URI url), public static void main(String[] args) throws IOException, public void handle(final HttpExchange exchange) throws IOException, public static void start(int port, URLHandler handler) throws IOException
 Relevant arguments in method: The same if statement is important in this case but more importantly the "str+=" is importnat because it allows us to add new strings without having to worry about the previous string not showing up:
 ```
 if(url.getPath().contains("/add-message")) {
@@ -106,6 +106,16 @@ The bug(After/fixed):
   }
 
 ```
-Part 3: 
+
+The problem with this code was that it wouldn't count any of the numbers that were equal to the lowest including duplicits. To solve this problem all we have to do is get rid of the if statement inside the for loop:
+```
+for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+
+```
+instead we just add all the numbers into the sum and then we just delete the lowest number from the sum after the for loop is complete. This way we dont have to worry about one of the numbers not being added since we are just getting of one of the lowest numbers.
+
+## **Part 3:** 
 I was able to learn how to start a new server and be able to search it up on a website. I was also able to learn new ways to test programs, especially the use of helper methods to be able to use less tester methods.
 
