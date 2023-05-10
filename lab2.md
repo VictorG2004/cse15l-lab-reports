@@ -107,6 +107,7 @@ The bug(After/fixed):
 
 ```
 
+Explanation:
 The problem with this code was that it wouldn't count any of the numbers that were equal to the lowest including duplicits. To solve this problem all we have to do is get rid of the if statement inside the for loop:
 ```
 for(double num: arr) {
@@ -115,6 +116,7 @@ for(double num: arr) {
 
 ```
 instead we just add all the numbers into the sum and then we just delete the lowest number from the sum after the for loop is complete. This way we dont have to worry about one of the numbers not being added since we are just getting of one of the lowest numbers.
+The second test works since there are no duplicate numbers so the code recognizes that 1 is the lowest number and the if statement does not add the 1, it does add 2,3 and 4 though resulting the sum to be 9 which is then divided by the amount of numbers that were added which is 3. This gives is the correct answer of 3.0.
 
 ## **Part 3:** 
 I was able to learn how to start a new server and be able to search it up on a website. I was also able to learn new ways to test programs, especially the use of helper methods to be able to use less tester methods.
