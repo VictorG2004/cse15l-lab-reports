@@ -35,7 +35,6 @@ if(url.getPath().contains("/add-message")) {
                     str += parameters[1];
                     str +="\n";
                     return str;
-
 ```
 How the values change: the str now adds the new string that is inputted and in the if statement I have “\n” be added right after so that the new string can be seen in another line.
  ```
@@ -104,7 +103,6 @@ The bug(After/fixed):
     sum -= lowest;
     return sum / (arr.length - 1);
   }
-
 ```
 
 Explanation:
@@ -113,7 +111,6 @@ The problem with this code was that it wouldn't count any of the numbers that we
 for(double num: arr) {
       if(num != lowest) { sum += num; }
     }
-
 ```
 instead we just add all the numbers into the sum and then we just delete the lowest number from the sum after the for loop is complete. This way we dont have to worry about one of the numbers not being added since we are just getting of one of the lowest numbers.
 The second test works since there are no duplicate numbers so the code recognizes that 1 is the lowest number and the if statement does not add the 1, it does add 2,3 and 4 though resulting the sum to be 9 which is then divided by the amount of numbers that were added which is 3. This gives is the correct answer of 3.0.
