@@ -85,11 +85,9 @@ Lets say we wanted the file to show all the lines without a specific string, we 
 Here we can see that the file that originally had 13 lines with the string "and", is now displayed with none of these strings.
 
 * Now I will be testing what would occur if we got more specific with what we want not to be shown using the command: grep -v "and the" plos/pmed.0020278.txt
+
 ```
 # [cs15lsp23pj@ieng6-203]:technical:102$ grep -v "and the" plos/pmed.0020278.txt 
-
-
-
 
 
         The only people who don't know in 2005 that animal research is irrelevant for human
