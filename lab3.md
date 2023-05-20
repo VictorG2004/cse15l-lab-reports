@@ -124,6 +124,7 @@ Here we can see that the file that originally had 13 lines with the string "and"
         anachronistic, medically discredited, and unethical research tool to its reporting.
 
 ```
+
 In this code we see that the string "and" can now be seen in the output but the line containing " and the" is now gone.
 
 I used the following website to get information on the command: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
