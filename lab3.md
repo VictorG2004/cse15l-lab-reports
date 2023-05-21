@@ -259,6 +259,7 @@ In this code we can see that only the string "mitochondria" is found in the outp
 ```
 
 (Code was trimmed for formatting purposes, but the entirety of biomed/1471-2091-3-8.txt was being outputted)
+
 This command shows all the lines in the file, so from this we can see that using this command with an empty line will return all lines.
 
 I used the following website to get information on the command: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
