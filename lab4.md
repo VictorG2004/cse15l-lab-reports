@@ -4,7 +4,7 @@ I will be recreating the steps I took in fixing the bug in list examples.
 ## **Step 1**
 ![Image](step1.png)
 
-keys pressed: *ssh, <space>, cs15lsp23pj, <Shift> 2, ucsd.edu, <enter>* 
+keys pressed: *ssh, < space >, cs15lsp23pj, < Shift > 2, ucsd.edu, < enter >* 
   
   With these characters I was able to log into my remote account and did not need to enter my password because of the saved ssh key.
 
