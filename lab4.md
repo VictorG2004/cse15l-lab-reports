@@ -39,7 +39,7 @@ With these keys I was able to open java file in vim, search for index1, and edit
 ## **Step6**
 ![Image](step6.png)
   
-  Keys pressed: *git , < space > , commit , < space > , -m , space , < Shift > ' , Commited , < shift > ' , < shift > l , ist , < tab > , < enter >
+  Keys pressed: *git , < space > , commit , < space > , -m , space , < Shift > ' , Commited , < shift > ' , < shift > l , ist , < tab > , < enter >*
   
 With these keys I was able to commit the fixed java file and have the statement "Commited" printed. 
   
