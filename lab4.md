@@ -20,7 +20,7 @@ With these characters I was able to clone the link that had been given to me whi
 
 keys pressed: *cd <space> lab7 <enter>, <up><up><up><enter>, <up><up><enter>*
   
-With these characters I was able to enter the lab7 file which give me access to the file needed to run the test. I pressed the up button 3 times because the   command *javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java * is in my command history. I then pressed the up button twice to access the command     *java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests*. This will then run the tests and we see that their is a failure in the code.
+With these characters I was able to enter the lab7 file which give me access to the file needed to run the test. I pressed the up button 3 times because the   command _javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java_ is in my command history. I then pressed the up button twice to access the command     *java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests*. This will then run the tests and we see that their is a failure in the code.
 
 ## **Step 4**
 ![Image](step4.png)
