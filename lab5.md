@@ -14,6 +14,6 @@ I fixed what we needed to for lab7 code but I keep getting error I think it migh
 
 Victor Gomez
 
-Hi, it seems you have two bugs in your code, line 41 has the while loop continue while index2 is less then index 2 which means that the while loop will never work. You also forgot to add > *.java when compiling your code. So to compile your code use this instead >javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
+Hi, it seems you have two bugs in your code, line 41 has the while loop continue while index2 is less then index 2 which means that the while loop will never work. You also forgot to add `*.java` when compiling your code. So to compile your code use this instead `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java`
 
 
