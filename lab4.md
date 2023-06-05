@@ -4,14 +4,14 @@ I will be recreating the steps I took in fixing the bug in list examples.
 ## **Step 1**
 ![Image](step1.png)
 
-keys pressed: *ssh , < space > , cs15lsp23pj , < shift > 2 , ucsd.edu , < enter >* 
+keys pressed: *`ssh` , `< space >` , `cs15lsp23pj` , `< shift > 2` , `ucsd.edu` , `< enter >`* 
   
   With these characters I was able to log into my remote account and did not need to enter my password because of the saved ssh key.
 
 ## **Step 2**
 ![Image](step2.png)
 
-keys pressed: *`git`, `< space >` , `clone`, `< space >` , `< ctrl >` `v` , `< enter >`*
+keys pressed: *`git`, `< space >` , `clone`, `< space >` , `< ctrl > v` , `< enter >`*
   
 With these characters I was able to clone the link that had been given to me which was https://github.com/ucsd-cse15l-s23/lab7. This allowed me to have access to the file lab7, which contained ListExamples.java and ListExamplesTests.java.
   
@@ -25,7 +25,7 @@ With these characters I was able to enter the lab7 file which give me access to 
 ## **Step 4**
 ![Image](step4.png)
   
-keys pressed: *`vim` , `< shift >` `l` , `ist` `< tab >` , `.` , `< tab >` `< enter >` , `/index1` , `< enter >` , `n(x10)` , `i`, `< right >(x6)` , `< backspace >` , `2` , `< esc >` , `:wq` , `< enter >`*
+keys pressed: *`vim` , `< shift >` `l` , `ist < tab >` , `.` , `< tab >` `< enter >` , `/index1` , `< enter >` , `n(x10)` , `i`, `< right >(x6)` , `< backspace >` , `2` , `< esc >` , `:wq` , `< enter >`*
   
 With these keys I was able to open java file in vim, search for index1, and edit the index1 that was meant to be a index2. Once I edited that by entering insert mode by pressing i, I was able to escape and use `:wq` to save and exit the java file.
   
