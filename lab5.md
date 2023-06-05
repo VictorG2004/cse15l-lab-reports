@@ -10,7 +10,7 @@ can't find it
 
 I fixed what we needed to for lab7 code but I keep getting error I think it might be my while loop.
 
-![Image](http://url/a.png)
+![Image](wrong.png)
 
 2.)
 
@@ -19,7 +19,7 @@ Victor Gomez
 Hi, it seems you have two bugs in your code, line 41 has the while loop continue while index2 is less then index 2 which means that the while loop will never work. You also forgot to add `*.java` when compiling your code. So to compile your code use this instead `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java`
 
 3.)
-![Image](http://url/a.png)
+![Image](fixed.png)
 
 So I tried what you told me and I fixed the while loop, now instead of it only executing if index2 is less then index 2 it will run while it is less then list2.size(). I also tried `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java` and it was finally able to compile with no error, it seems I was just missing "*". "*" tells javac to compile all the .java files in this directory. It’s a shorthand for writing them all out,
 
