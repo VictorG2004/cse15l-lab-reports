@@ -25,6 +25,7 @@ So I tried what you told me and I fixed the while loop, now instead of it only e
 
 4.)
 File and directory:
+
 The file that had the bug was ListExamples.java, to be able to acces the file I needed to be in the directory: ` C:\Users\capti\OneDrive\Documents\GitHub\lab7`
 
 Contents of the file before fixing the bug: 
@@ -81,9 +82,11 @@ class ListExamples {
 
 ```
 Command line to trigger bug: 
+
 `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" .java`
 
 How to fix the bug:
+
 To fix the bug we will have to fix last while loop to 
 ```
  while(index2 < list2.size()) {
