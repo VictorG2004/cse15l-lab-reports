@@ -21,7 +21,7 @@ Hi, it seems you have two bugs in your code, line 41 has the while loop continue
 3.)
 ![Image](http://url/a.png)
 
-So I tried what you told me and I fixed the while loop, now instead of it only executing if index2 is less then index 2 it will run while it is less then list2.size(). I also tried `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java` and it was finally able to compile with no error, it seems I was just missing "*". 
+So I tried what you told me and I fixed the while loop, now instead of it only executing if index2 is less then index 2 it will run while it is less then list2.size(). I also tried `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java` and it was finally able to compile with no error, it seems I was just missing "*". "*" tells javac to compile all the .java files in this directory. It’s a shorthand for writing them all out,
 
 4.)
 File and directory:
@@ -93,4 +93,7 @@ To fix the bug we will have to fix last while loop to
 ```
 We also have to fix the command line we used to trigger bug by instead using `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java`
 
+# Reflection
+
+I really enjoyed learning vim in lab, I was suprised to know that you could get all the tips on how to use vim in vscode. Learning how to make tests through bash was also very interesting and helped me understand how auto grader work. It was fun working with a partner and learning how to create our own autograder in Lab since I was not always sure on how to answer all the questions.
 
